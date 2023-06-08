@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Toaster UI Made from an Object">
     <title>Programming Foundations CA</title>
     <link href='css/style.css' rel='stylesheet' />
     <link rel='icon' href='data:;base64,=' />
@@ -11,42 +12,39 @@
 
 <body>
     <div class="dashboard">
-        <h1>Toaster Dashboard</h1>
+        <h1>Toaster</h1>
         <div class="info">
             <span>Brand:</span>
-            <span>Coline</span>
+            <span id="brand">Coline</span>
         </div>
         <div class="info">
             <span>Colour:</span>
-            <span></span>
+            <span id="colour">Black and silver</span>
         </div>
         <div class="info">
-            <span>Toastiness/time:</span>
-            <span></span>
+            <span>Toastiness:</span>
+            <select id="toastiness">
+                <option>1</option>
+                <option>1.5</option>
+                <option>2</option>
+                <option>2.5</option>
+                <option>3</option>
+                <option>3.5</option>
+                <option>4</option>
+            </select>
         </div>
         <div class="info">
-            <span>Function:</span>
-            <span></span>
+            <span>Functions:</span>
+            <div id="functions">
+                <button>Toast</button>
+                <button>Defrost</button>
+                <button>Reheat</button>
+                <button>Cancel</button>
+            </div>
         </div>
         <div class="info">
-            <span></span>
-            <span></span>
-        </div>
-        <div class="info">
-            <span></span>
-            <span></span>
-        </div>
-        <div class="info">
-            <span></span>
-            <span></span>
-        </div>
-        <div class="info">
-            <span></span>
-            <span></span>
-        </div>
-        <div class="info">
-            <span></span>
-            <span></span>
+            <span>On/off</span>
+            <span id=""></span>
         </div>
     </div>
     <script src="js/script.js"></script>

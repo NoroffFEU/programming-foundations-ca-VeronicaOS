@@ -1,2 +1,10 @@
 [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-718a45dd9cf7e7f842a935f5ebbe5719a5e09af4491e668f4dbf3b35d5cca122.svg)](https://classroom.github.com/online_ide?assignment_repo_id=11296861&assignment_repo_type=AssignmentRepo)
 # Programming Foundations CA
+# Toaster Object
+
+This object has the following properties:
+- Brand (String), the manufacturer of the toaster
+- Colour (Array), the toaster has two colours to choose from
+- Toastiness (Number/Array), the toaster has 7 different toasting settings going from 1-4
+- Functions (Array), the toaster has several functions to choose from (toast, defrost, reheat, cancel)
+- On/off (Boolean), on/off button for the toaster
