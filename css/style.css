@@ -16,7 +16,6 @@ body {
 
 h1 {
     text-align: center;
-	color: ;
 	padding: 0 10px;
 }
 
@@ -34,18 +33,18 @@ h1 {
 }
 
 .btn:hover, .btns:hover {
-	background-color: #db890d;
+	background-color: #336390;
 }
 
 .btn:focus, .btns:focus {
-	background-color: #db890d;
+	background-color: #336390;
 }
 
 .btns, .btn {
 	color: white;
-	background-color: #ff9a00;
+	background-color: #0084ff;
 	margin: 10px 0 0 10px;
-	border-color: white;
+	border-color: #2665a0;
 	border-radius: 5px;
 	border-width: thin;
 }

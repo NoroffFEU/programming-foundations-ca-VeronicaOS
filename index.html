@@ -1,56 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Toaster UI Made from an Object">
-    <title>Programming Foundations CA</title>
-    <link href='css/style.css' rel='stylesheet' />
-    <link rel='icon' href='data:;base64,=' />
-</head>
-
-<body>
-    <div class="dashboard">
-        <h1>Toaster</h1>
-        <div class="info">
-            <span>Brand:</span>
-            <span id="brand">Coline</span>
-        </div>
-        <div class="info">
-            <span>Colour:</span>
-            <span id="colour">Black and silver</span>
-        </div>
-        <div class="info">
-            <span>Toastiness:</span>
-            <select id="toastiness">
-                <option>1</option>
-                <option>1.5</option>
-                <option>2</option>
-                <option>2.5</option>
-                <option>3</option>
-                <option>3.5</option>
-                <option>4</option>
-            </select>
-        </div>
-        <div class="info">
-            <span>Functions:</span>
-            <div id="functions">
-                <button class="btns">Toast</button>
-                <button class="btns">Defrost</button>
-                <button class="btns">Reheat</button>
-                <button class="btns">Cancel</button>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="Toaster UI Made from an Object" />
+        <title>Programming Foundations CA</title>
+        <link href="css/style.css" rel="stylesheet" />
+        <link rel="icon" href="data:;base64,=" />
+    </head>
+    <body>
+        <div class="dashboard">
+            <h1>Toaster</h1>
+            <div class="info">
+                <span>Brand:</span>
+                <span id="brand">Coline</span>
+            </div>
+            <div class="info">
+                <span>Colour:</span>
+                <span id="colour">Black and silver</span>
+            </div>
+            <div class="info">
+                <span>Toastiness:</span>
+                <select id="toastiness">
+                    <option>1</option>
+                    <option>1.5</option>
+                    <option>2</option>
+                    <option>2.5</option>
+                    <option>3</option>
+                    <option>3.5</option>
+                    <option>4</option>
+                </select>
+            </div>
+            <div class="info">
+                <span>Functions:</span>
+                <div id="functions">
+                    <button class="btns">Toast</button>
+                    <button class="btns">Defrost</button>
+                    <button class="btns">Reheat</button>
+                    <button id="cancel-btn" class="btns">Cancel</button>
+                </div>
+            </div>
+            <div class="info">
+                <span>Power:</span>
+                <span id="power"></span>
+            </div>
+            <div>
+                <button id="control-lever" class="btn">
+                    Pull Control Lever
+                </button>
             </div>
         </div>
-        <div class="info">
-            <span>Power:</span>
-            <span id="power"></span>
-        </div>
-        <div>
-            <button id="control-lever" class="btn">Pull Control Lever</button>
-        </div>
-    </div>
-    <script src="js/script.js"></script>
-</body>
-
+        <script src="js/toaster.js"></script>
+    </body>
 </html>
